@@ -1,0 +1,2 @@
+class Bond:
+    name: str
