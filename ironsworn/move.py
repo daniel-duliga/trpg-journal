@@ -1,9 +1,9 @@
-from core import dice
+from core import roll
 
-def roll(modifier: int = 0):
-    challenge1 = dice.roll_1d10()
-    challenge2 = dice.roll_1d10()
-    action = dice.roll_1d6() + modifier
+def action(modifier: int = 0):
+    challenge1 = roll.d10()
+    challenge2 = roll.d10()
+    action = roll.d6() + modifier
     
     result = ""
     

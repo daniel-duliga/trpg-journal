@@ -1,9 +1,3 @@
-__all__ = [
-    "bond",
-    "character",
-    "debility",
-    "moves",
-    "oracles",
-    "rank",
-    "vow",
-]
+from ironsworn.character import *
+from ironsworn.move import *
+from ironsworn.oracle import *
